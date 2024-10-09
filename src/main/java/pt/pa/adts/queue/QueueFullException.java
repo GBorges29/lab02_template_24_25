@@ -9,10 +9,12 @@ package pt.pa.adts.queue;
 public class QueueFullException extends RuntimeException {
 
     public QueueFullException() {
+
         super("The queue is full.");
     }
 
     public QueueFullException(String message) {
+
         super(message);
     }
 }

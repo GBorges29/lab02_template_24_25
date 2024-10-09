@@ -9,10 +9,11 @@ public class QueueEmptyException extends RuntimeException {
 
     public QueueEmptyException() {
 
-        throw new UnsupportedOperationException("The queue is empty.");
+        super ("The queue is empty.");
     }
 
     public QueueEmptyException(String message) {
-      throw new UnsupportedOperationException(message);
+
+        super (message);
     }
 }
