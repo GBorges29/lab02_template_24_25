@@ -1,7 +1,8 @@
-package pt.pa.adts.queue;
-
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import pt.pa.adts.queue.QueueEmptyException;
+import pt.pa.adts.queue.QueueLinkedList;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
